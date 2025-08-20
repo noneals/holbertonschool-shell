@@ -1,1 +1,4 @@
-printf '%s\n' '#!/bin/bash' 'ls -l -a .' 'ls -l -a ..' 'ls -l -a /boot' > 11-lists
+#!/bin/bash
+ls -la .
+ls -la ..
+ls -la /boot
