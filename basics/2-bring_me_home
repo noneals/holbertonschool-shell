@@ -1,4 +1,2 @@
-cd ~/holbertonschool-shell/basics
-nano 2-bring_me_home
 #!/bin/bash
 cd ~
