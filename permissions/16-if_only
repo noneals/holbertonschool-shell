@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo find hello -maxdepth 0 -user guillaume -exec chown vincent {} \;
+find hello -maxdepth 0 -user guillaume -exec chown vincent {} \;
