@@ -1,8 +1,8 @@
 #!/bin/bash
-# 11-directories_permissions
-
-for f in *; do
-    if [ -d "$f" ]; then
-        chmod a+x "$f"
+for dir in */
+do
+    if [ -d "$dir" ]
+    then
+        chmod a+x "$dir"
     fi
 done
